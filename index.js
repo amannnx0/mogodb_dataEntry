@@ -27,7 +27,7 @@ app.post("/signup",async function(req,res){
 
   user.save();
   res.json({
-    "msg" : "user created successfully,thank you"
+    "msg" : "User created successfully,thank you"
   })
 });
 
